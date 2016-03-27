@@ -1,0 +1,8 @@
+rootProject.name = 'example'
+include 'price-domain'
+include 'image-domain'
+include 'image'
+include 'price-without-hexagonal'
+include 'price-with-hexagonal'
+include 'unchanged-monolithic-application'
+
