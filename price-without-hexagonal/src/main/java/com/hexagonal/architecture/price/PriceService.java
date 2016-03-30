@@ -16,7 +16,7 @@ public class PriceService {
         Image image = imageService.getImage(id);
 
         int cost = 10;
-        if (image.getPath().contains("llama")){
+        if (image.getPath().contains("whatever")){
             cost = 20;
         }
 
