@@ -7,6 +7,7 @@ public class ImageJavaServiceAdapter implements ImagePort{
     public Image getImage(String id){
         // Here we would pull in the ImageService (Java class)
         // and continue to call that method
+        //imageService.getImage(id);
         return null;
     }
 
