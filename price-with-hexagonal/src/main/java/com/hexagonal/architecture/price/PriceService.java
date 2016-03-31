@@ -15,7 +15,7 @@ public class PriceService {
         Image image = imagePort.getImage(id);
 
         int cost = 10;
-        if (image.getPath().contains("llama")){
+        if (image.getPath().contains("whatever")){
             cost = 20;
         }
 
